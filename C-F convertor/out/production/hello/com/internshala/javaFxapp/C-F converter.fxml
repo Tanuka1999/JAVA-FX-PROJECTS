@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.internshala.javaFxapp.project">
+   <children>
+      <Button fx:id="button" layoutX="111.0" layoutY="221.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="91.0" text="convert" />
+      <Label fx:id="label" layoutX="99.0" layoutY="64.0" prefHeight="31.0" prefWidth="103.0" text="Welcome">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font></Label>
+      <TextField fx:id="text" layoutX="82.0" layoutY="173.0" promptText="Enter the value" />
+      <ChoiceBox fx:id="choicebox" layoutX="44.0" layoutY="110.0" prefHeight="31.0" prefWidth="204.0" />
+   </children>
+</Pane>
